@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
 @Configuration
-@MapperScan("com.helper.test.written.dao.WrittenDAO")
+@MapperScan("com.helper.test.written.dao")
 public class WrittenJdbcConfig {
 	@Bean
 	public DriverManagerDataSource dataSource() {
