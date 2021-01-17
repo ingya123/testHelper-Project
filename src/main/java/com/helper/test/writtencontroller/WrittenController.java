@@ -50,4 +50,5 @@ public class WrittenController {
 		return service.getWrittenNameList();
 	}
 	
+	
 }

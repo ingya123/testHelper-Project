@@ -47,7 +47,7 @@ function init(){
 			$("#name_list").html(html)
 		},
 		error : function(){
-			alert('insertWrittenName문제발생')
+			alert('insertWrittenName init()문제발생')
 		}
 	})
 }
@@ -60,7 +60,7 @@ function init(){
 	<h4>과목을 등록해주세요</h4>
 	<input type="text" id="written" placeholder="과목을 입력해주세요.">
 	<button type="button" onclick="insertWrittenName()">등록하기</button>
-	
+	<hr>
 	<div>
 		<h3>등록된 과목</h3>
 		<div id="name_list">
@@ -68,6 +68,10 @@ function init(){
 				<option value="">-등록된 과목 목록입니다-</option>
 			</select>
 		</div>
+		<hr>
+		
+		<button onclick="location.href='/test/insertQuiz'">문제 등록하러 가기</button>
+	
 	</div>
 </div>
 </body>
