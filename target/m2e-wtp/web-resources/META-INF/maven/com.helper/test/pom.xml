@@ -115,7 +115,43 @@
 			<artifactId>junit</artifactId>
 			<version>4.7</version>
 			<scope>test</scope>
+		</dependency>
+		<dependency> 
+		<groupId>commons-fileupload</groupId> 
+		<artifactId>commons-fileupload</artifactId> 
+		<version>1.3.1</version> 
 		</dependency> 
+		<dependency> 
+		<groupId>commons-io</groupId> 
+		<artifactId>commons-io</artifactId>
+		 <version>2.4</version> 
+		</dependency>
+
+
+		<!-- Servlet -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.0.1</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet.jsp</groupId>
+            <artifactId>jsp-api</artifactId>
+            <version>2.2</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
+        </dependency>
+		<!-- lombok -->
+		<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.16.10</version> <!--버전은 그때 맞춰서-->
+</dependency> 
 		<!--  JSON -->
 		<dependency>
    <groupId>com.fasterxml.jackson.core</groupId>
